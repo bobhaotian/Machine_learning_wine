@@ -6,6 +6,8 @@
 - [Steps](#steps)
   - [Load Data](#load-data)
   - [Data visualization](#data-visualization)
+  - [Data Preperation](#data-preperation)
+  - [Model Building](#model-building)
 ## Introduction
 The project is to dicover the correlation between the accuracy of prediction with using different main algorithms and the dataset.
 This time, we use the dataset that contains qualities of wine, and predict the quality by using Linear Regression, Random Forrest, and RForestClassifier.
@@ -22,6 +24,14 @@ Import panda
 (Experienced a tiny problem when reading the csv file. Every time we refresh it, the file we imported is gone. Solved by conncecting with google drive)
 ### Data Visualization
 Data Visualization provides tremendous help for determining which algorithm we can use to predict the data.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/112147566/235041473-7e826aba-c7ea-4644-b209-7e0778d1dd25.png" alt="Structural Elements of Wine" width="50%">
+</p>
 
 Ex. we can find the correlation between each factor. If they all have strong connections, then Linear Regression might be a good choice.
-
+### Data Preperation
+Splitting the data into X and Y sections, where Y is the part we predicts. 
+An essential step is setting the size of X and Y. The test size can affect the accuracy. In this case, we tested with 0.2 and 0.12, whcih gives us different results (0.72 vs. 0.76). 
+### Model Building
+We chose three different main predition algorithms. 
+The RForestClassifier gives the most accurate prediction.
