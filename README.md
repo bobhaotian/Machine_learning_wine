@@ -1,4 +1,4 @@
 # Machine_learning_wine
 
-  ![Layered red wine glass](https://png.pngtree.com/png-clipart/20200320/ourmid/pngtree-layered-red-wine-glass-png-image_2162221.jpg)
+  ![Layered red wine glass](https://github.com/bobhaotian/Machine_learning_wine/issues/1#issue-1687757533)
 
