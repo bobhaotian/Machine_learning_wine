@@ -9,7 +9,7 @@
   - [Data Preperation](#data-preperation)
   - [Model Building](#model-building)
 ## Introduction
-The project is to dicover the correlation between the accuracy of prediction with using different main algorithms and the dataset.
+The project is to discover the correlation between the accuracy of prediction with using different main algorithms and the dataset.
 This time, we use the dataset that contains qualities of wine, and predict the quality by using Linear Regression, Random Forrest, and RForestClassifier.
 
 <p align="center">
