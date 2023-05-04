@@ -10,7 +10,7 @@
   - [Model Building](#model-building)
 ## Introduction
 The project is to discover which algorithm should be used to fit the dataset by noticing the accuracy.
-This time, we use the dataset that contains qualities of wine, and predict the quality by using Linear Regression, Random Forrest, and RForestClassifier.
+This time, we use the dataset that contains qualities of wine, and predict the quality by using Linear Regression and RForestClassifier.
 
 <p align="center">
   <img src="https://www.winemag.com/wp-content/uploads/2021/10/HERO_Strcutural_Elements_of-Wine_GettyImages-1233242907_1920x1280.jpg" alt="Structural Elements of Wine" width="50%">
@@ -36,4 +36,6 @@ An essential step is setting the size of X and Y. The test size can affect the a
 We chose three different main predition algorithms. 
 The RForestClassifier gives the most accurate prediction.
 That says, since the 10 'x' factors are not related linearly strictly, LinearRegression is not the best algorithm.
+The data is not strictly continous, so a decision tree does not work well, too. 
+
 
