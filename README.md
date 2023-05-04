@@ -35,3 +35,5 @@ An essential step is setting the size of X and Y. The test size can affect the a
 ### Model Building
 We chose three different main predition algorithms. 
 The RForestClassifier gives the most accurate prediction.
+That says, since the 10 'x' factors are not related linearly strictly, LinearRegression is not the best algorithm.
+
